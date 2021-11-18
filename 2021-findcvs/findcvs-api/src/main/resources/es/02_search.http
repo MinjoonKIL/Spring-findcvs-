@@ -1,0 +1,54 @@
+### 전체 문서 다 불러옴
+POST http://172.31.43.38:9200/cvs/_search
+Content-Type: application/json
+
+{
+    "query" : {
+        "match_all" : {}
+    }
+}
+
+### 호서가 포함된 문서 불러옴
+POST http://172.31.43.38:9200/cvs/_search
+Content-Type: application/json
+
+{
+    "query" : {
+        "match" : {
+            "name" : "호서"
+        }
+    }
+}
+
+### 튀김 & 카페 서비스를 제공하는곳을 찾음
+POST http://172.31.43.38:9200/cvs/_search
+Content-Type: application/json
+
+{
+    "query" : {
+        "bool" : {
+            "filter" : [
+                {"term" :  {"servicesProvideds" :  "FRIED"}},
+                {"term" :  {"servicesProvideds" :  "CAFE"}}
+            ]
+        }
+    }
+}
+
+### 호서 반경 3km 이내의 ATM 편의점을 찾음
+POST http://172.31.43.38:9200/cvs/_search
+Content-Type: application/json
+
+{
+    "query" : {
+        "bool" : {
+            "must": {
+                "match_all": {}
+            },
+            "filter" : [
+              {"geo_distance": {"distance": "100m", "location": {"lat": 37.56292, "lon": 126.83995}}}
+            ]
+        }
+    }
+}
+

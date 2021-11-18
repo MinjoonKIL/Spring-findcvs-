@@ -1,0 +1,5 @@
+rootProject.name = '2021-findcvs'
+include 'findcvs-api'
+include 'findcvs-crawler'
+include 'findcvs-domain'
+

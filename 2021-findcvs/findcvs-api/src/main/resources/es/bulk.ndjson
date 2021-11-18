@@ -1,0 +1,14 @@
+{ "create": { "_id" : "se_서울호서대점_37.562704573_126.83992118" } }
+{"id": "se_서울호서대점_37.562704573_126.83992118", "brand": "SEVEN_ELEVEN", "servicesProvideds": ["FRIED", "ATM"], "name": "서울호서대점", "address": "서울특별시 강서구 강서로 418 동우빌딩", "telno": "", "location": {"lat": 37.562704573, "lon": 126.83992118}}
+{ "create": { "_id" : "se_송정로점_37.560144891_126.81016023" } }
+{"id": "se_송정로점_37.560144891_126.81016023", "brand": "SEVEN_ELEVEN", "servicesProvideds": ["CAFE", "ATM", "ALL_DAY"], "name": "송정로점", "address": "서울특별시 강서구 송정로 60 (공항동)", "telno": "", "location": {"lat": 37.560144891, "lon": 126.81016023}}
+{ "create": { "_id" : "se_신방화역점_37.569182263_126.81610036" } }
+{"id": "se_신방화역점_37.569182263_126.81610036", "brand": "SEVEN_ELEVEN", "servicesProvideds": ["ALL_DAY"], "name": "신방화역점", "address": "서울특별시 강서구 방화대로 319 길성아파트 상가 8, 9호", "telno": "", "location": {"lat": 37.569182263, "lon": 126.81610036}}
+{ "create": { "_id" : "se_염창점_37.55137308_126.87195361" } }
+{"id": "se_염창점_37.55137308_126.87195361", "brand": "SEVEN_ELEVEN", "servicesProvideds": ["CAFE", "DELIVERY", "ATM", "ALL_DAY"], "name": "염창점", "address": "서울특별시 강서구 양천로 677 1층 101호(염창동, 염창빌딩)", "telno": "", "location": {"lat": 37.55137308, "lon": 126.87195361}}
+{ "create": { "_id" : "se_염창중앙점_37.553122917_126.8703934" } }
+{"id": "se_염창중앙점_37.553122917_126.8703934", "brand": "SEVEN_ELEVEN", "servicesProvideds": ["CAFE"], "name": "염창중앙점", "address": "서울 강서구 양천로69길 11 (염창동)", "telno": "", "location": {"lat": 37.553122917, "lon": 126.8703934}}
+{ "create": { "_id" : "se_화곡3호점_37.537839855_126.8367112" } }
+{"id": "se_화곡3호점_37.537839855_126.8367112", "brand": "SEVEN_ELEVEN", "servicesProvideds": ["CAFE", "ATM", "ALL_DAY"], "name": "화곡3호점", "address": "서울특별시 강서구 화곡로20길 58 (화곡동)", "telno": "", "location": {"lat": 37.537839855, "lon": 126.8367112}}
+{ "create": { "_id" : "se_화곡5호점_37.532672207_126.84237489" } }
+{"id": "se_화곡5호점_37.532672207_126.84237489", "brand": "SEVEN_ELEVEN", "servicesProvideds": ["FRIED", "LOTTERY", "CAFE", "ALL_DAY"], "name": "화곡5호점", "address": "서울특별시 강서구 강서로 17다길 2", "telno": "", "location": {"lat": 37.532672207, "lon": 126.84237489}}

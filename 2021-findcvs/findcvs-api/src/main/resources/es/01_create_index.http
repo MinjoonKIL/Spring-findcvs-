@@ -1,0 +1,46 @@
+### DELETE INDEX
+DELETE http://172.31.43.38:9200/cvs
+Content-Type: application/json
+
+### CREATE INDEX
+
+PUT http://172.31.43.38:9200/cvs
+Content-Type: application/json
+
+{
+    "mappings": {
+        "properties": {
+            "id": {
+                "type": "keyword"
+            },
+            "brand": {
+                "type" : "keyword"
+            },
+            "servicesProvideds": {
+                "type" : "keyword"
+            },
+            "name": {
+                "type" : "text",
+                "analyzer" : "nori"
+            },
+            "address": {
+                "type" : "text",
+                "analyzer" : "nori"
+            },
+            "telno": {
+                "type" : "keyword"
+            },
+            "location" : {
+                "type" : "geo_point"
+            }
+        }
+    }
+}
+
+### insert sample data
+## flat data (ctrl + shift + j)
+
+POST http://172.31.43.38:9200/cvs/_bulk
+Content-Type: application/x-ndjson
+
+< bulk.ndjson

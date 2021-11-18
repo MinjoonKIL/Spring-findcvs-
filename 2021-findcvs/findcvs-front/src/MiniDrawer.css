@@ -1,0 +1,30 @@
+.ListItem.Mui-selected {
+    color: blue;
+}
+
+
+/* 모바일 사이즈 일때 */
+@media screen and (max-width: 600px) {
+    .bar {
+        width: 41px;
+    }
+
+    .pc {
+        display: none;
+    }
+
+    /* 검색 input 폰트사이즈 줄임 */
+    #root > div > header > div > div > div > input{
+        font-size : 12px;
+    }
+
+}
+
+/* 모바일 사이즈가 아닐 때 */
+@media screen and (min-width: 600px) {
+    .mobile{
+        display: none;
+    }
+}
+
+

@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    default: local
+
+logging:
+  level:
+    org.elasticsearch.client.RestClient : ERROR
+---
+spring:
+  config:
+    activate:
+      on-profile: local
+  elasticsearch:
+    rest:
+      uris: "http://172.31.43.38:9200"
+---
+spring:
+  config:
+    activate:
+      on-profile: production
+  elasticsearch:
+    rest:
+      uris: "http://localhost:9200"
